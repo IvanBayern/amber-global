@@ -1,0 +1,38 @@
+.header__logo {
+    // margin-right: auto;
+
+    @media screen and (min-width: 768px) {
+            margin-right: 87px;
+        }
+    
+        @media screen and (min-width: 1200px) {
+            margin-right: 93px;
+        }
+}
+
+.logo{
+    @include fonts(24px, 28px, 700, 0.03em);
+
+    @media screen and (min-width: 1200px) {
+            @include fonts(26px, 31px, 700, 0.03em);
+        }
+
+    font-family: var(--secondary-font);
+
+    &--accent {
+        
+            color: var(--blu-cl);
+        }
+    &--white {
+
+            color: var(--white-txt-cl);
+        }
+    &--black {
+
+           color: var(--black-txt-cl);
+        }
+}
+
+
+
+
