@@ -5,7 +5,7 @@
     margin-left: auto;
     margin-right: auto;
     background-image: linear-gradient(to left, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-        url(../images/mobile/hero-mobile-1x-480\ -mino.jpg);
+        url(../images/fon.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -40,14 +40,14 @@
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/mobile/hero-mobile-2x-960-mino.jpg);
+            url(../images/fon.jpg);
     }
 }
 
 @media screen and (min-width: 768px) {
     .hero {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/tablet/hero-tablet-1x-768-mino.jpg);
+            url(../images/fon.jpg);
     }
 }
 
@@ -64,7 +64,7 @@
 @media screen and (min-width: 1200px) {
     .hero {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/desktop/hero-desktop-1x-1600-mino.jpg);
+            url(../images/fon.jpg);
     }
 }
 
@@ -74,6 +74,6 @@
 (min-resolution: 2dppx) {
     .hero {
         background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-            url(../images/desktop/hero-desktop-2x-3200-mino.jpg);
+            url(../images/fon.jpg);
     }
 }

@@ -82,13 +82,13 @@ display: flex;
         @media screen and (max-width: 479px) {
                     @include fonts(24px, 40px, 500, 0.02em);
                     // gap: 32px;
-                    color: var(--blu-cl);
+                    color: var(#b8860b);
                 }
 
         @media screen and (min-width:480px ) and (max-width: 767px) {
                 @include fonts(34px, 40px, 500, 0.02em);
                 gap: 32px;
-                color: var(--blu-cl);
+                color: var(#b8860b);
             }
 
         @media screen and (min-width: 768px) {
