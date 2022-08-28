@@ -144,6 +144,8 @@ fieldset {
     font-weight: 900;
     letter-spacing: 0.06em;
     max-width: 696px;
+    margin-left: 700px;
+    margin-bottom: 70px;
   }
 }
 
@@ -290,6 +292,11 @@ fieldset {
 }
 .hero-btn:hover {
   background: #a77f1c;
+}
+@media screen and (min-width: 1200px) {
+  .hero-btn {
+    margin-left: 850px;
+  }
 }
 
 .btn__item {
@@ -1612,7 +1619,7 @@ address {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(33, 150, 243, 0.9);
+  background: rgba(184, 134, 11, 0.9);
   color: var(--white-txt-cl);
   padding: 63px 24px;
   -webkit-transform: translateY(101%);
