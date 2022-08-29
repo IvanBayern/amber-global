@@ -293,8 +293,9 @@ fieldset {
 .hero-btn:hover {
   background: #a77f1c;
 }
+
 @media screen and (min-width: 1200px) {
-  .hero-btn {
+  .btn-hero-marg {
     margin-left: 850px;
   }
 }
@@ -371,7 +372,7 @@ fieldset {
 }
 
 .modal__btn {
-  width: 200px;
+  width: 150px;
   height: 50px;
   padding: 10px 55px;
 }
@@ -808,6 +809,11 @@ fieldset {
   fill: var(--blu-cl);
 }
 
+.form__input._error {
+  -webkit-box-shadow: 0 0 15px red;
+          box-shadow: 0 0 15px red;
+}
+
 .form__field {
   margin-bottom: 10px;
 }
@@ -943,6 +949,34 @@ fieldset {
           transition-duration: 250ms;
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox._error .checkbox__icon {
+  -webkit-box-shadow: 0 0 15px red;
+          box-shadow: 0 0 15px red;
+}
+
+.form {
+  position: relative;
+}
+
+.form::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(184, 134, 11, 0.9) url(../../images/loading1.gif) center/50px no-repeat;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: all 0.5s ease 0s;
+  transition: all 0.5s ease 0s;
+}
+
+.form._sending::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 @media screen and (min-width: 768px) {
@@ -1156,6 +1190,36 @@ address {
 @media screen and (max-width: 767px) {
   .footer-socials {
     margin-bottom: 60px;
+  }
+}
+
+.tel-container {
+  margin-top: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .tel-container {
+    margin-left: 250px;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__address-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .flexf {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 250px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
 }
 

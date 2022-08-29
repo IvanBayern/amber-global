@@ -22,6 +22,7 @@ address {
     
     margin-top: 20px;
     font-style: normal;
+    
 }
 
 .address__link {
@@ -80,9 +81,59 @@ address {
     }
     
 }
+// @media (min-width: 1200px) {
+//     .footer__tablet {
+//         display: flex;
+//         justify-content: space-around;
+        
+//     }
+
+// }
 .footer-socials{
     @media screen and (max-width: 767px) {
            margin-bottom: 60px;
         }
 }
 
+
+
+.tel-container{
+    margin-top: 12px;
+    @media screen and (min-width: 1200px) {
+            
+            margin-left:250px;
+            margin-top: 0;
+            
+    
+    
+        }
+
+}
+.footer__address-container{
+    @media screen and (min-width: 1200px) {
+            display: flex;
+        //    margin-left: 120px;
+           
+           
+
+        }
+}
+
+.flexf{
+    @media screen and (min-width: 1200px) {
+            display: flex;
+           gap: 250px;
+    
+    align-items: center;
+    
+    
+        }
+   
+}
+
+// .footer__address {
+// // margin-left: 120px;
+// }
+// .footer__address-container{
+// margin-left: auto;
+// }

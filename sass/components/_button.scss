@@ -25,12 +25,15 @@
             background: #a77f1c;
         }
 
-         @media screen and (min-width: 1200px) {
-            
-             margin-left: 850px;
-            
+        
+}
+.btn-hero-marg{
+    @media screen and (min-width: 1200px) {
     
-         }
+            margin-left: 850px;
+    
+    
+        }
 }
 
 .btn__item {
@@ -108,9 +111,10 @@
 
 
 .modal__btn {
-    width: 200px;
+    width: 150px;
     height: 50px;
     padding: 10px 55px;
+   
 
 }
 .modal__close-btn {
